@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+ <!-- namespace指定命名空间	区分 -->
+<mapper namespace="com.grace.dao.UserDao">
+	<select id="select" resultType="com.grace.entity.User">
+		select * from user_f
+	</select>
+		
+</mapper>
